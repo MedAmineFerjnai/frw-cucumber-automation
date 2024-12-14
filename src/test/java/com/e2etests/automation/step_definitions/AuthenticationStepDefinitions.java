@@ -14,7 +14,6 @@ import io.cucumber.java.en.When;
 
 public class AuthenticationStepDefinitions {
 
-	public WebDriver driver;
 	private AuthenticationPage authenticationPage;
 
 	public AuthenticationStepDefinitions() {

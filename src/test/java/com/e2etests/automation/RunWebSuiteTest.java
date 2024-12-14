@@ -26,7 +26,7 @@ import static io.cucumber.junit.CucumberOptions.SnippetType.CAMELCASE;
 	features = 	{"src/spec/features"}, //tu peut mettre nom specifie, comme authentication.feature
 	plugin = {"pretty","html:target/cucumber-report.html"}, //Rapport : mnathem / de type HTML wathaka esmo wblasa
 	//glue = {.com.e2etests.automation.step_definitions"},
-	tags = ("@connexion"), //tags de spec, en place de  @tag1
+	tags = ("@Module_register"), //tags de spec, en place de  @tag1
 	monochrome = true,   // organise rapport et resultat en console
 	snippets = CAMELCASE //
 	)
